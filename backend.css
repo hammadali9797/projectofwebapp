@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+body {
+           
+    background-image: url('2.jpg'); 
+    background-size: cover;  
+    background-position: center center;  
+    background-attachment: fixed; 
+    height: 100vh;  
+    margin: 0;
+}
+.h1,.p{
+    color: rgb(243, 240, 255);
+}
+.p{
+   font-size: 25px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+   
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section, .price-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000409;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f8fbff;
+    color: #000409;
+}
+
+#price {
+    font-size: 2em;
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
